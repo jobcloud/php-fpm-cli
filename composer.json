@@ -1,0 +1,23 @@
+{
+    "name": "jobcloud/php-fpm-cli",
+    "description": "php fpm cli helper - execute commands on fpm sockets",
+    "keywords": [
+        "php",
+        "fpm",
+        "cli",
+        "opcache"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Fürst",
+            "email": "christian.fuerst@jobcloud.ch"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "bin": [
+        "bin/php-fpm-cli"
+    ]
+}
